@@ -4,13 +4,13 @@ import Footer from "../components/footer";
 
 function Root() {
   return (
-    <>
+    <div className="flex flex-col p-0 m-0 min-h-screen">
       <Header />
-      <div>
+      <main className="flex-grow web-width-container">
         <Outlet />
-      </div>
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
