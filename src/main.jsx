@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import './fonts/Roboto/Roboto-Regular.ttf';
 
 import Root from "./routes/root";
 import Home from "./routes/home";
@@ -10,6 +11,7 @@ import AllProductsPage from "./routes/allproducts";
 import ProductPage from "./routes/product";
 import AboutPage from "./routes/about";
 import CheckoutPage from "./routes/checkout";
+import Contact from "./routes/contact";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/checkout",
         element: <CheckoutPage />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },
