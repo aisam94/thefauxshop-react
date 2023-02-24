@@ -73,16 +73,77 @@ button:focus-visible {
   }
 } */
 
-.web-width-container{
+.web-width-container {
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.about-width-container{
+.about-width-container {
   max-width: 500px;
 }
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-container {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  max-height: 600px;
+  margin-top: 1rem;
+  transform-style: preserve-3d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-cards {
+  position:relative;
+  width: 500px;
+  height: 500px;
+}
+.carousel-card {
+  position: absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  right:0;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+  margin: auto;
+}
+
+.carousel-img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* put card at left */
+#item-1:checked ~ .carousel-cards #carousel-3,
+#item-2:checked ~ .carousel-cards #carousel-1,
+#item-3:checked ~ .carousel-cards #carousel-2 {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+/* put card at right */
+#item-1:checked ~ .carousel-cards #carousel-2,
+#item-2:checked ~ .carousel-cards #carousel-3,
+#item-3:checked ~ .carousel-cards #carousel-1 {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+/* put card in middle */
+#item-1:checked ~ .carousel-cards #carousel-1,
+#item-2:checked ~ .carousel-cards #carousel-2,
+#item-3:checked ~ .carousel-cards #carousel-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
 }
