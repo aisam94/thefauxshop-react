@@ -6,7 +6,7 @@
       "name": "Luxe Noir Leather Writing Journal",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/notebook/pexels-ushindi-namegabe-6721315.jpg"
+      "image": "/notebook/pexels-ushindi-namegabe-6721315.webp"
     },
 
     {
@@ -14,14 +14,14 @@
       "name": "Pristine Ivory Leather Notebook",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/notebook/pexels-monstera-6373305.jpg"
+      "image": "/notebook/pexels-monstera-6373305.webp"
     },
     {
       "id": "028b2168-e77e-4ac8-a2fd-45c0965dd7ca",
       "name": "Rustic Cardeor Notebook",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/notebook/pexels-rodnae-productions-7978772.jpg"
+      "image": "/notebook/pexels-rodnae-productions-7978772.webp"
     }
   ]
 }

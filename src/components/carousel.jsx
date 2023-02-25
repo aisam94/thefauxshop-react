@@ -46,7 +46,7 @@ function Carousel() {
         <label className="carousel-card" htmlFor="item-1" id="carousel-1">
           <img
             class="carousel-img"
-            src="carousel/pexels-andrea-piacquadio-3823488.jpg"
+            src="carousel/pexels-andrea-piacquadio-3823488.webp"
             alt="img"
           />
         </label>
@@ -54,7 +54,7 @@ function Carousel() {
         <label className="carousel-card" htmlFor="item-2" id="carousel-2">
           <img
             class="carousel-img"
-            src="carousel/pexels-cottonbro-studio-4626338.jpg"
+            src="carousel/pexels-cottonbro-studio-4626338.webp"
             alt="img"
           />
         </label>
@@ -62,7 +62,7 @@ function Carousel() {
         <label className="carousel-card" htmlFor="item-3" id="carousel-3">
           <img
             class="carousel-img"
-            src="carousel/pexels-vlada-karpovich-4050388.jpg"
+            src="carousel/pexels-vlada-karpovich-4050388.webp"
             alt="img"
           />
         </label>

@@ -6,42 +6,42 @@
       "name": "Lumierre Backpack",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/bag/pexels-matheus-bertelli-2905238.jpg"
+      "image": "/bag/pexels-matheus-bertelli-2905238.webp"
     },
     {
       "id": "e0aaf0fd-ac85-47df-a2e8-cd4751dce278",
       "name": "Premium Yonk Bag",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/bag/pexels-ge-yonk-1152077.jpg"
+      "image": "/bag/pexels-ge-yonk-1152077.webp"
     },
     {
       "id": "dada48bb-00c2-4ce5-847e-9f51735d41af",
       "name": "Cynosure Athena Bag",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/bag/pexels-athena-2081199.jpg"
+      "image": "/bag/pexels-athena-2081199.webp"
     },
     {
       "id": "22789af6-cbcf-43c4-8ddd-1ccdc1034550",
       "name": "Super Yellow Mellow Bag",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/bag/pexels-godisable-jacob-934673.jpg"
+      "image": "/bag/pexels-godisable-jacob-934673.webp"
     },
     {
       "id": "ddb56e36-c5af-44cd-bec8-5d9fb9311e4a",
       "name": "Luxe Noir Leather Bag",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/bag/pexels-jonathan-borba-3155047.jpg"
+      "image": "/bag/pexels-jonathan-borba-3155047.webp"
     },
     {
       "id": "f399d25f-5f8b-431c-be2a-47caa2f9c0a8",
       "name": "Totes Fr Bag",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/bag/pexels-angela-roma-7319324.jpg"
+      "image": "/bag/pexels-angela-roma-7319324.webp"
     }
   ]
 }

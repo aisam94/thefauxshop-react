@@ -6,49 +6,49 @@
       "name": "Ambessador Wallet",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/wallet/pexels-moo-jii-8483970.jpg"
+      "image": "/wallet/pexels-moo-jii-8483970.webp"
     },
     {
       "id": "37fc7f39-88df-4f7f-bce4-cc86653b0574",
       "name": "Renaissance Wallet",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/wallet/pexels-vlada-karpovich-4452509.jpg"
+      "image": "/wallet/pexels-vlada-karpovich-4452509.webp"
     },
     {
       "id": "67aac43b-e7dc-4ae7-9386-786cd0f1a5a2",
       "name": "Top Maverick Wallet",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/wallet/pexels-gentcreate-13706807.jpg"
+      "image": "/wallet/pexels-gentcreate-13706807.webp"
     },
     {
       "id": "61e9860d-6bc1-4f70-ae2b-40ce423444cd",
       "name": "Elite Wallet",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/wallet/pexels-anna-tarazevich-5963183.jpg"
+      "image": "/wallet/pexels-anna-tarazevich-5963183.webp"
     },
     {
       "id": "a630474e-0465-4d39-94f3-975ec32af82d",
       "name": "Prestige Wallet",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/wallet/pexels-vlada-karpovich-4452400.jpg"
+      "image": "/wallet/pexels-vlada-karpovich-4452400.webp"
     },
     {
       "id": "23f0ddeb-7198-4305-91bb-a1854fb1b8fd",
       "name": "Zenith Wallet",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/wallet/pexels-vlada-karpovich-4452372.jpg"
+      "image": "/wallet/pexels-vlada-karpovich-4452372.webp"
     },
     {
       "id": "a0474617-0a80-49a6-a209-18746271e85e",
       "name": "Odyssey Wallet",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
       "price": 100.99,
-      "image": "/wallet/pexels-tatiana-azatskaya-9466127.jpg"
+      "image": "/wallet/pexels-tatiana-azatskaya-9466127.webp"
     }
   ]
 }
