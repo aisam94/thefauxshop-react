@@ -1,0 +1,44 @@
+[
+  {
+    "id": "53d681af-49eb-4632-9d4a-b5e399dd4a21",
+    "name": "Lumierre Backpack",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+    "price": 100.99,
+    "image": "/notebook/pexels-matheus-bertelli-2905238.jpg"
+  },
+  {
+    "id": "e0aaf0fd-ac85-47df-a2e8-cd4751dce278",
+    "name": "Premium Yonk Bag",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+    "price": 100.99,
+    "image": "/notebook/pexels-ge-yonk-1152077.jpg"
+  },
+  {
+    "id": "dada48bb-00c2-4ce5-847e-9f51735d41af",
+    "name": "Cynosure Athena Bag",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+    "price": 100.99,
+    "image": "/notebook/pexels-athena-2081199.jpg"
+  },
+  {
+    "id": "22789af6-cbcf-43c4-8ddd-1ccdc1034550",
+    "name": "Super Yellow Mellow Bag",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+    "price": 100.99,
+    "image": "/notebook/pexels-godisable-jacob-934673.jpg"
+  },
+  {
+    "id": "ddb56e36-c5af-44cd-bec8-5d9fb9311e4a",
+    "name": "Luxe Noir Leather Bag",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+    "price": 100.99,
+    "image": "/notebook/pexels-jonathan-borba-3155047.jpg"
+  },
+  {
+    "id": "f399d25f-5f8b-431c-be2a-47caa2f9c0a8",
+    "name": "Totes Fr Bag",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+    "price": 100.99,
+    "image": "/notebook/pexels-angela-roma-7319324.jpg"
+  }
+]
