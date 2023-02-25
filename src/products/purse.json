@@ -1,44 +1,47 @@
-[
-  {
-    "id": "d248c805-9725-4230-91a1-99c09b2db61b",
-    "name": "Anne Sahara Purse",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
-    "price": 100.99,
-    "image": "/notebook/pexels-anne-r-3908800.jpg"
-  },
-  {
-    "id": "82e0a8cc-0a85-4068-9060-3732b7df577c",
-    "name": "Pinkus Dinos Purse",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
-    "price": 100.99,
-    "image": "/notebook/pexels-zsófia-fehér-7138945.jpg"
-  },
-  {
-    "id": "c7c2189f-c4e6-4978-9b32-0dcc49936f33",
-    "name": "Zsophi Cittagan Purse",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
-    "price": 100.99,
-    "image": "/notebook/pexels-rachel-claire-5864581.jpg"
-  },
-  {
-    "id": "77dad7dd-5a1d-4f80-aaa5-9678f8e6ed6b",
-    "name": "Dame Daniel Purse",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
-    "price": 100.99,
-    "image": "/notebook/pexels-godisable-jacob-978665.jpg"
-  },
-  {
-    "id": "864db245-f04b-4327-b736-66e7ba0bb61b",
-    "name": "Alfoso Chekmato Purse",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
-    "price": 100.99,
-    "image": "/notebook/pexels-anne-r-3661622.jpg"
-  },
-  {
-    "id": "405e6dc0-2d55-4645-b8fd-264827a873ef",
-    "name": "Celestia Doyenne Purse",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
-    "price": 100.99,
-    "image": "/notebook/pexels-castorly-stock-3682239.jpg"
-  }
-]
+{
+  "group": "purse",
+  "products": [
+    {
+      "id": "d248c805-9725-4230-91a1-99c09b2db61b",
+      "name": "Anne Sahara Purse",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+      "price": 100.99,
+      "image": "/purse/pexels-anne-r-3908800.jpg"
+    },
+    {
+      "id": "82e0a8cc-0a85-4068-9060-3732b7df577c",
+      "name": "Pinkus Dinos Purse",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+      "price": 100.99,
+      "image": "/purse/pexels-zsófia-fehér-7138945.jpg"
+    },
+    {
+      "id": "c7c2189f-c4e6-4978-9b32-0dcc49936f33",
+      "name": "Zsophi Cittagan Purse",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+      "price": 100.99,
+      "image": "/purse/pexels-rachel-claire-5864581.jpg"
+    },
+    {
+      "id": "77dad7dd-5a1d-4f80-aaa5-9678f8e6ed6b",
+      "name": "Dame Daniel Purse",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+      "price": 100.99,
+      "image": "/purse/pexels-godisable-jacob-978665.jpg"
+    },
+    {
+      "id": "864db245-f04b-4327-b736-66e7ba0bb61b",
+      "name": "Alfoso Chekmato Purse",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+      "price": 100.99,
+      "image": "/purse/pexels-anne-r-3661622.jpg"
+    },
+    {
+      "id": "405e6dc0-2d55-4645-b8fd-264827a873ef",
+      "name": "Celestia Doyenne Purse",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+      "price": 100.99,
+      "image": "/purse/pexels-castorly-stock-3682239.jpg"
+    }
+  ]
+}

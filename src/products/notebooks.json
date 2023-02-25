@@ -1,24 +1,27 @@
-[
-  {
-    "id": "cdd0f770-cf42-4728-83ea-2e616ca58303",
-    "name": "Luxe Noir Leather Writing Journal",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
-    "price": 100.99,
-    "image": "/notebook/pexels-ushindi-namegabe-6721315.jpg"
-  },
+{
+  "group": "notebooks",
+  "products": [
+    {
+      "id": "cdd0f770-cf42-4728-83ea-2e616ca58303",
+      "name": "Luxe Noir Leather Writing Journal",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+      "price": 100.99,
+      "image": "/notebook/pexels-ushindi-namegabe-6721315.jpg"
+    },
 
-  {
-    "id": "be42c5f9-9188-4092-9300-3487c19be210",
-    "name": "Pristine Ivory Leather Notebook",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
-    "price": 100.99,
-    "image": "/notebook/pexels-monstera-6373305.jpg"
-  },
-  {
-    "id": "028b2168-e77e-4ac8-a2fd-45c0965dd7ca",
-    "name": "Rustic Cardeor Notebook",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
-    "price": 100.99,
-    "image": "/notebook/pexels-rodnae-productions-7978772.jpg"
-  }
-]
+    {
+      "id": "be42c5f9-9188-4092-9300-3487c19be210",
+      "name": "Pristine Ivory Leather Notebook",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+      "price": 100.99,
+      "image": "/notebook/pexels-monstera-6373305.jpg"
+    },
+    {
+      "id": "028b2168-e77e-4ac8-a2fd-45c0965dd7ca",
+      "name": "Rustic Cardeor Notebook",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi recusandae harum sequi, a explicabo corrupti fugit praesentium quibusdam quasi, placeat ab accusamus similique totam quod perspiciatis, veritatis velit necessitatibus.",
+      "price": 100.99,
+      "image": "/notebook/pexels-rodnae-productions-7978772.jpg"
+    }
+  ]
+}
