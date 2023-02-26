@@ -1,16 +1,19 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function Carousel() {
-  const [firstTime, setFirstTime] = useState(true);
-  const [currentImage, setCurrentImage] = useState(1);
-  useEffect(() => {
-    setFirstTime(false);
-  }, []);
+  const [currentImage, setCurrentImage] = useState(0);
 
   function changeImage(e) {
     setCurrentImage(e.target.value);
   }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prevImage) => (prevImage + 1) % 3);
+    }, 7_000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="carousel-container">
@@ -20,8 +23,8 @@ function Carousel() {
         type="radio"
         name="slider"
         id="item-1"
-        value={1}
-        checked={firstTime || parseInt(currentImage) === 1}
+        value={0}
+        checked={parseInt(currentImage) === 0}
         onChange={changeImage}
       ></input>
       <input
@@ -29,7 +32,8 @@ function Carousel() {
         type="radio"
         name="slider"
         id="item-2"
-        value={2}
+        value={1}
+        checked={parseInt(currentImage) === 1}
         onChange={changeImage}
       ></input>
       <input
@@ -37,7 +41,8 @@ function Carousel() {
         type="radio"
         name="slider"
         id="item-3"
-        value={3}
+        value={2}
+        checked={parseInt(currentImage) === 2}
         onChange={changeImage}
       ></input>
 
@@ -45,7 +50,7 @@ function Carousel() {
       <div className="carousel-cards">
         <label className="carousel-card" htmlFor="item-1" id="carousel-1">
           <img
-            class="carousel-img"
+            className="carousel-img"
             src="carousel/pexels-andrea-piacquadio-3823488.webp"
             alt="img"
           />
@@ -53,7 +58,7 @@ function Carousel() {
 
         <label className="carousel-card" htmlFor="item-2" id="carousel-2">
           <img
-            class="carousel-img"
+            className="carousel-img"
             src="carousel/pexels-cottonbro-studio-4626338.webp"
             alt="img"
           />
@@ -61,7 +66,7 @@ function Carousel() {
 
         <label className="carousel-card" htmlFor="item-3" id="carousel-3">
           <img
-            class="carousel-img"
+            className="carousel-img"
             src="carousel/pexels-vlada-karpovich-4050388.webp"
             alt="img"
           />
