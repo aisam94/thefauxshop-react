@@ -1,17 +1,15 @@
 import ProductCard from "./product-card";
-import getAllProducts from "../products/allproducts";
+import { getProductsArray } from "../products/allproducts";
 
 function ProductGrid() {
-  const allProducts = getAllProducts();
+  const allProducts = getProductsArray();
 
   return (
     <>
       <section className="product-grid-container grid grid-cols-3 my-3">
-        {allProducts.map((group) =>
-          group.products.map((product) => {
-            return <ProductCard product={product} />;
-          })
-        )}
+        {allProducts.map((product) => {
+          return <ProductCard key={product.id} product={product} />;
+        })}
       </section>
     </>
   );
