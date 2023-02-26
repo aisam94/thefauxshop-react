@@ -8,7 +8,7 @@ import Root from "./routes/root";
 import Home from "./routes/home";
 import ErrorPage from "./routes/error-page";
 import AllProductsPage from "./routes/allproducts";
-import ProductPage from "./routes/product";
+import ProductPage, {loader as productLoader} from "./routes/product";
 import AboutPage from "./routes/about";
 import CheckoutPage from "./routes/checkout";
 import Contact from "./routes/contact";
@@ -30,6 +30,7 @@ const router = createBrowserRouter([
       {
         path: "/products/:id",
         element: <ProductPage />,
+        loader: productLoader,
       },
       {
         path: "/about",
