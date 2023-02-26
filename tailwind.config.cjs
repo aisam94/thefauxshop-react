@@ -9,8 +9,8 @@ module.exports = {
     colors: {
       'primary': '#8A565C',
       'primary-focus': '#7D4F54',
-      'secondary': '#F6BDD1',
-      'secondary-focus': '#F3A5C0',
+      'secondary': '#D91D5F',
+      'secondary-focus': '#C40F4F',
       'accent': '#F5CC00',
       'accent-focus': '#E0BB00',
       'black': '#011627',
