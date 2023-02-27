@@ -180,3 +180,25 @@ body {
   max-height: 580px;
   object-fit: cover;
 }
+
+.cart-container {
+  min-width: 800px;
+  max-width: 800px;
+}
+
+.cart-item {
+  width: 100px;
+  height: 150px;
+  max-width: 100px;
+  max-height: 150px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.cart-header {
+  border-bottom: 2px solid #d91d5f;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-weight: 700;
+}

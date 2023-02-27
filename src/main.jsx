@@ -2,16 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import './fonts/Roboto/Roboto-Regular.ttf';
+import "./fonts/Roboto/Roboto-Regular.ttf";
 
 import Root from "./routes/root";
 import Home from "./routes/home";
 import ErrorPage from "./routes/error-page";
 import AllProductsPage from "./routes/allproducts";
-import ProductPage, {loader as productLoader} from "./routes/product";
+import ProductPage, { loader as productLoader } from "./routes/product";
 import AboutPage from "./routes/about";
 import CheckoutPage from "./routes/checkout";
 import Contact from "./routes/contact";
+import Cart from "./routes/cart";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
     ],
   },
