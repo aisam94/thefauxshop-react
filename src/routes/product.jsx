@@ -22,8 +22,8 @@ export default function ProductPage() {
           <span className="text-gray my-2 text-center">
             RM {product.price.toFixed(2)}
           </span>
-          <div className="flex space-x-2 justify-center items-center my-3 p-3 capitalize bg-secondary hover:bg-secondary-focus text-white text-center cursor-pointer w-full">
-            <span>add</span>
+          <div className="flex space-x-2 justify-center items-center my-3 p-3 bg-secondary hover:bg-secondary-focus text-white text-center cursor-pointer w-full">
+            <span>Add to Cart</span>
             <img
               className="header-icons w-6 h-6"
               src="/icons/add-to-cart.svg"
