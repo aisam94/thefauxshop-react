@@ -202,3 +202,13 @@ body {
   text-align: center;
   font-weight: 700;
 }
+
+.item-num-input {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  text-align: center;
+  width: 1.75rem;
+  outline: none;
+}
