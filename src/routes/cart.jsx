@@ -2,12 +2,15 @@ import { useCartStore } from "../store/cartStore";
 import CartItem from "../components/cartItem";
 
 function Cart() {
-  const { cart } = useCartStore();
+  const { cart, removeAllItems } = useCartStore();
 
   return (
     <div className="cart-container flex mt-5">
-      <div className="cart-left-side w-3/4 pr-3">
-        <h3 className="cart-header">My Cart</h3>
+      <div className="cart-left-side w-3/4 pr-3 relative">
+        <div>
+          <h3 className="cart-header">My Cart</h3>
+          <span className="absolute top-0 right-0 pr-4 cursor-pointer hover:opacity-70" onClick={removeAllItems}>Remove all</span>
+        </div>
         {cart.length > 0 ? (
           cart.map((product) => {
             return <CartItem key={product.id} product={product} />;
