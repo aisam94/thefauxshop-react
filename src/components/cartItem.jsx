@@ -27,8 +27,8 @@ function CartItem({ product }) {
         <img className="cart-item" src={product.image} alt="img" />
       </Link>
       <div className="flex flex-col">
-        <span>{product.name}</span>
-        <span className="text-gray">RM {product.price.toFixed(2)}</span>
+        <span className="text-sm">{product.name}</span>
+        <span className="text-gray text-sm">RM {product.price.toFixed(2)}</span>
         <div className="mt-2">
           <button
             className="border border-secondary w-6 text-white bg-secondary hover:bg-secondary-focus"
@@ -50,7 +50,7 @@ function CartItem({ product }) {
           </button>
         </div>
       </div>
-      <div className="ml-auto pr-1 flex flex-col items-center">
+      <div className="ml-auto pr-1 flex flex-col items-center text-sm">
         <span>RM {product.price.toFixed(2)}</span>
         <img
           className="header-icons w-8 h-8 mt-6 cursor-pointer hover:scale-110"

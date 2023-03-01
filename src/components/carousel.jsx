@@ -10,7 +10,7 @@ function Carousel() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % 3);
-    }, 7_000);
+    }, 5_000);
 
     return () => clearInterval(interval);
   }, []);

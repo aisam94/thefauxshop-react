@@ -13,9 +13,9 @@ export default function ProductPage() {
 
   return (
     <>
-      <div className="flex mt-10 product-page-width-container">
+      <div className="product-page-width-container">
         <img
-          className="product-left-side product-page-img"
+          className="product-left-side product-page-img border"
           src={product.image}
           alt="img"
         />
@@ -38,7 +38,7 @@ export default function ProductPage() {
             />
           </button>
           <span className="text-primary my-2">description</span>
-          <span className="overflow-hidden text-ellipsis px-1 py-1">
+          <span className="overflow-hidden text-ellipsis px-1 py-1 mb-10">
             {product.description}
           </span>
           <Link

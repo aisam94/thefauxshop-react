@@ -36,8 +36,8 @@ function Cart() {
   }, [cart]);
 
   return (
-    <div className="cart-container flex mt-5">
-      <div className="cart-left-side w-3/4 pr-3 relative">
+    <div className="cart-container">
+      <div className="cart-item-container">
         <div>
           <h3 className="cart-header">My Cart</h3>
           <span
@@ -57,7 +57,7 @@ function Cart() {
           </h3>
         )}
       </div>
-      <div className="cart-right-side w-1/4 mx-1 px-1">
+      <div className="order-summary-container">
         <h3 className="text-xl cart-header text-center font-bold">
           Order Summary
         </h3>

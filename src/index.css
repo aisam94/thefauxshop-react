@@ -2,97 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-} */
-
-/* h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
-
 @font-face {
   font-family: "Roboto";
   src: local("Roboto"),
     url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
-
 .web-width-container {
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
 }
-
 .about-width-container {
   max-width: 500px;
 }
-
 .product-page-width-container {
+  display: flex;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   max-width: 800px;
 }
-
 body {
   font-family: "Roboto", Helvetica, sans-serif;
 }
@@ -115,64 +55,87 @@ body {
 }
 .carousel-card {
   position: absolute;
-  left: 0;
-  right: 0;
   transition: transform 0.4s ease;
   cursor: pointer;
   margin: auto;
 }
-
 .carousel-img {
   border-radius: 5px;
   object-fit: cover;
 }
-
-/* put card at left */
-#item-1:checked ~ .carousel-cards #carousel-3,
-#item-2:checked ~ .carousel-cards #carousel-1,
-#item-3:checked ~ .carousel-cards #carousel-2 {
-  transform: translatex(-40%) scale(0.8);
-  opacity: 0.4;
-  z-index: 0;
+@media (min-width: 1024px) {
+  /* put card at left */
+  #item-1:checked ~ .carousel-cards #carousel-3,
+  #item-2:checked ~ .carousel-cards #carousel-1,
+  #item-3:checked ~ .carousel-cards #carousel-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  /* put card at right */
+  #item-1:checked ~ .carousel-cards #carousel-2,
+  #item-2:checked ~ .carousel-cards #carousel-3,
+  #item-3:checked ~ .carousel-cards #carousel-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  /* put card in middle */
+  #item-1:checked ~ .carousel-cards #carousel-1,
+  #item-2:checked ~ .carousel-cards #carousel-2,
+  #item-3:checked ~ .carousel-cards #carousel-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+  }
+  #item-1:checked ~ .carousel-cards #carousel-1 img,
+  #item-2:checked ~ .carousel-cards #carousel-2 img,
+  #item-3:checked ~ .carousel-cards #carousel-3 img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
 }
-
-/* put card at right */
-#item-1:checked ~ .carousel-cards #carousel-2,
-#item-2:checked ~ .carousel-cards #carousel-3,
-#item-3:checked ~ .carousel-cards #carousel-1 {
-  transform: translatex(40%) scale(0.8);
-  opacity: 0.4;
-  z-index: 0;
+@media screen {
+  /* put card at left */
+  #item-1:checked ~ .carousel-cards #carousel-3,
+  #item-2:checked ~ .carousel-cards #carousel-1,
+  #item-3:checked ~ .carousel-cards #carousel-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  /* put card at right */
+  #item-1:checked ~ .carousel-cards #carousel-2,
+  #item-2:checked ~ .carousel-cards #carousel-3,
+  #item-3:checked ~ .carousel-cards #carousel-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  /* put card in middle */
+  #item-1:checked ~ .carousel-cards #carousel-1,
+  #item-2:checked ~ .carousel-cards #carousel-2,
+  #item-3:checked ~ .carousel-cards #carousel-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+  }
+  #item-1:checked ~ .carousel-cards #carousel-1 img,
+  #item-2:checked ~ .carousel-cards #carousel-2 img,
+  #item-3:checked ~ .carousel-cards #carousel-3 img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
 }
-
-/* put card in middle */
-#item-1:checked ~ .carousel-cards #carousel-1,
-#item-2:checked ~ .carousel-cards #carousel-2,
-#item-3:checked ~ .carousel-cards #carousel-3 {
-  transform: translatex(0) scale(1);
-  opacity: 1;
-  z-index: 1;
-}
-
-#item-1:checked ~ .carousel-cards #carousel-1 img,
-#item-2:checked ~ .carousel-cards #carousel-2 img,
-#item-3:checked ~ .carousel-cards #carousel-3 img {
-  box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
-}
-
 .product-card {
   width: 300px;
   height: 400px;
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .product-img {
   width: 300px;
   height: 350px;
   object-fit: cover;
 }
-
 .product-page-img {
   min-width: 500px;
   min-height: 580px;
@@ -180,12 +143,12 @@ body {
   max-height: 580px;
   object-fit: cover;
 }
-
 .cart-container {
-  min-width: 800px;
-  max-width: 800px;
+  display: flex;
+  margin-top: 1.25rem;
+  min-width: 700px;
+  max-width: 700px;
 }
-
 .cart-item {
   width: 100px;
   height: 150px;
@@ -194,7 +157,6 @@ body {
   object-fit: cover;
   border: 1px solid black;
 }
-
 .cart-header {
   border-bottom: 2px solid #d91d5f;
   font-size: 1.25rem;
@@ -202,7 +164,18 @@ body {
   text-align: center;
   font-weight: 700;
 }
-
+.cart-item-container {
+  position: relative;
+  width: 75%;
+  padding-right: 0.75rem;
+}
+.order-summary-container {
+  width: 25%;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
 .item-num-input {
   -webkit-appearance: none;
   -moz-appearance: textfield;
@@ -211,4 +184,114 @@ body {
   text-align: center;
   width: 1.75rem;
   outline: none;
+}
+nav ul {
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  text-align: center;
+  list-style-type: none;
+}
+@media (max-width: 1024px) {
+  .product-grid-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    text-align: center;
+    justify-items: center;
+  }
+  .carousel-container {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .carousel-cards {
+    width: 600px;
+    height: 400px;
+  }
+  .carousel-img {
+    width: 600px;
+  }
+  .product-page-width-container {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+  }
+  .product-page-img {
+    min-width: 300px;
+    min-height: 0;
+    max-width: 300px;
+    max-height: none;
+  }
+}
+@media (max-width: 768px) {
+  nav ul {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  nav ul li {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .web-width-container {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .product-grid-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    text-align: center;
+    justify-items: center;
+  }
+  .about-width-container {
+    max-width: none;
+    font-size: 14px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+  .carousel-card {
+    left: auto;
+    right: auto;
+  }
+  .cart-container {
+    min-width: 0;
+    min-height: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart-item-container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+  }
+  .order-summary-container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 640px) {
+  .product-card {
+    width: 100px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+  }
+  .product-img {
+    width: 100px;
+    height: 150px;
+  }
+  .carousel-cards {
+    width: 300px;
+    height: 200px;
+    margin-top: 1rem;
+  }
+  .carousel-img {
+    width: 300px;
+  }
 }

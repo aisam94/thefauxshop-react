@@ -1,7 +1,7 @@
 function AboutPage() {
   return (
     <div className="about-width-container text-center">
-      <h1 className="text-center uppercase my-5">About</h1>
+      <h1 className="text-center uppercase my-5 text-secondary">About</h1>
       <div>
         <p className="">
           Welcome to our e-commerce website, where you can find a wide range of
