@@ -9,7 +9,7 @@ function ProductCard({ product }) {
       <div>
         <img className="product-img hover:border-4 hover:border-secondary" src={product.image} alt="img" />
       </div>
-      <span>{product.name}</span>
+      <span className="product-card-name">{product.name}</span>
       <br />
       <span className="text-gray">RM {product.price.toFixed(2)}</span>
     </Link>
