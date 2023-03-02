@@ -24,13 +24,18 @@
   margin-right: auto;
   margin-left: auto;
 }
-.about-width-container {
+.paragraph-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.paragraph-width-container {
   max-width: 500px;
 }
 .product-page-width-container {
   display: flex;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
   max-width: 800px;
 }
 body {
@@ -251,9 +256,8 @@ nav ul {
     text-align: center;
     justify-items: center;
   }
-  .about-width-container {
+  .paragraph-width-container {
     width: 100%;
-    max-width: none;
     font-size: 14px;
     padding-left: 2rem;
     padding-right: 2rem;

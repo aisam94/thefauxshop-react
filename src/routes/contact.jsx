@@ -1,7 +1,7 @@
 function Contact() {
   return (
-    <>
-      <div className="about-width-container text-center">
+    <div className="paragraph-container">
+      <div className="paragraph-width-container text-center">
         <h1 className="text-center uppercase my-5 text-secondary">Contact</h1>
         <div className="">
           <span>Any questions about our products?</span>
@@ -22,7 +22,7 @@ function Contact() {
           <span>We love to hear more from you!</span>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
