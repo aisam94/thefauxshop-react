@@ -8,13 +8,14 @@ function Cart() {
   const [subTotalCost, setSubTotalCost] = useState(0);
   const [shippingCost, setShippingCost] = useState(10);
   const [totalCost, setTotalCost] = useState(0);
+  const [cartTrigger,setCartTrigger] = useState(0);
 
   const defaultShippingCost = 10;
 
   function getSubTotalCost() {
     let sum = 0;
     for (let i = 0; i < cart.length; i++) {
-      sum += cart[i].price;
+      sum += cart[i].price * cart[i].stock;
     }
     return sum;
   }
@@ -33,7 +34,7 @@ function Cart() {
     setSubTotalCost(subTotal);
     setShippingCost(getShippingCost);
     setTotalCost(getTotalCost);
-  }, [cart]);
+  }, [cart, cartTrigger]);
 
   return (
     <div className="cart-container">
@@ -49,7 +50,7 @@ function Cart() {
         </div>
         {cart.length > 0 ? (
           cart.map((product) => {
-            return <CartItem key={product.id} product={product} />;
+            return <CartItem key={product.id} product={product} trigger={setCartTrigger}/>;
           })
         ) : (
           <h3 className="mt-2 pb-2 mb-2 text-center">
@@ -63,18 +64,18 @@ function Cart() {
         </h3>
         <div className="">
           <div className="border-b-2 border-secondary mt-2 pb-2">
-            <div className="flex justify-between">
+            <div className="flex justify-between space-x-1">
               <span>Subtotal</span>
-              <span>RM {subTotalCost.toFixed(2)}</span>
+              <span className="truncate">RM {subTotalCost.toFixed(2)}</span>
             </div>
-            <div className="flex justify-between">
+            <div className="flex justify-between space-x-1">
               <span>Shipping</span>
-              <span>RM {shippingCost.toFixed(2)}</span>
+              <span className="truncate">RM {shippingCost.toFixed(2)}</span>
             </div>
           </div>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center space-x-1">
             <span className="text-xl font-bold">Total</span>
-            <span>RM {totalCost.toFixed(2)}</span>
+            <span className="truncate">RM {totalCost.toFixed(2)}</span>
           </div>
         </div>
       </div>

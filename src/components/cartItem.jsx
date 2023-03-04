@@ -2,23 +2,34 @@ import { Link } from "react-router-dom";
 import { useCartStore } from "../store/cartStore";
 import { useState } from "react";
 
-function CartItem({ product }) {
-  const { removeItem } = useCartStore();
-  const [itemNum, setItemNum] = useState(1);
+function CartItem({ product, trigger }) {
+  const { removeItem, addItemStock, minusItemStock, updateItemStock } =
+    useCartStore();
+  const [itemNum, setItemNum] = useState(product.stock);
 
   function handleItemNum(e) {
     e.preventDefault();
-    if (e.target.value < 1) return;
-    setItemNum(e.target.value);
+    let newValue = +(e.target.value);
+    if (newValue < 1) return;
+    setItemNum(newValue);
+    updateItemStock(product.id, newValue);
+    trigger((i) => i + 1);
   }
 
   function decrementItemNum(e) {
     e.preventDefault();
-    if (itemNum > 1) setItemNum(+itemNum - 1);
+    if (itemNum > 1) {
+      setItemNum(+itemNum - 1);
+      minusItemStock(product.id);
+      trigger((i) => i + 1);
+    }
   }
 
-  function incrementItemNum() {
+  function incrementItemNum(e) {
+    e.preventDefault();
     setItemNum(+itemNum + 1);
+    addItemStock(product.id);
+    trigger((i) => i + 1);
   }
 
   return (
