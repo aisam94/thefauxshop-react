@@ -43,7 +43,7 @@ function updateStock(id, cart, value) {
   return { cart: newCart };
 }
 
-export const useCartStore = create(persist((set) => ({
+export const useCartStore = create(persist((set, get) => ({
   cart: [],
   addItem: (newItem) => set((state) => (parseItem(newItem, state.cart))),
   addItemStock: (id) => set((state) => (addStock(id, state.cart))),
