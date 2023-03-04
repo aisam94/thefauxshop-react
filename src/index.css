@@ -99,7 +99,7 @@ body {
     box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
   }
 }
-@media screen {
+@media (max-width: 1024px) {
   /* put card at left */
   #item-1:checked ~ .carousel-cards #carousel-3,
   #item-2:checked ~ .carousel-cards #carousel-1,
