@@ -43,7 +43,7 @@ function updateStock(id, cart, value) {
   return { cart: newCart };
 }
 
-export const useCartStore = create(persist((set, get) => ({
+export const useCartStore = create(((set, get) => ({
   cart: [],
   addItem: (newItem) => set((state) => (parseItem(newItem, state.cart))),
   addItemStock: (id) => set((state) => (addStock(id, state.cart))),
@@ -51,8 +51,5 @@ export const useCartStore = create(persist((set, get) => ({
   updateItemStock: (id, value) => set((state) => (updateStock(id, state.cart, value))),
   removeItem: (id) => set((state) => ({ cart: state.cart.filter(item => item.id !== id) })),
   removeAllItems: () => set({ cart: [] }),
-}),
-  {
-    name: "cart-storage",
-  }
+})
 ));
