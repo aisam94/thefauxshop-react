@@ -23,7 +23,7 @@ function Header() {
             <img className="header-icons w-5 h-5" src="/icons/contact.svg" />
           </li>
           <li className="flex items-center space-x-1 hover:scale-125 ease-in-out transition">
-            <Link to={"/cart"}>Cart</Link>
+            <Link to={"/#/cart"}>Cart</Link>
             <img className="header-icons w-5 h-5" src="/icons/cart.svg" />
           </li>
         </ul>
