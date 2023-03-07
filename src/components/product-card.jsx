@@ -4,7 +4,7 @@ function ProductCard({ product }) {
   return (
     <Link
       className="product-card flex flex-col items-center bg-white mx-1 my-2 cursor-pointer"
-      to={`products/${product.id}`}
+      to={`/products/${product.id}`}
     >
       <div>
         <img
