@@ -37,6 +37,7 @@
 .product-page-width-container {
   display: flex;
   max-width: 800px;
+  margin-top: 2rem;
 }
 body {
   font-family: "Roboto", Helvetica, sans-serif;
